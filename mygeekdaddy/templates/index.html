@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block content %}
+{% set index=True %}
+<div class="entry-content">
+	
+
+{% for article in articles %}
+
+    {% if loop.index == 1 %}
+
+	<article class="entry-content">
+        <h1><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
+        {{ article.content }}
+      </article>
+
+      <hr />
+
+      {% if loop.length  > 1 %}
+	  <div id="blog-index"> </br>
+          <h3 style="padding-left: 15px;">Previous posts:</h3>
+          <ol>
+      {% endif %}
+    
+	  {% elif loop.index < 7 %}
+	  <li>
+		  {% include '_includes/article_link.inc.html' %}
+    {% endif %}
+</li>
+{% endfor %}
+
+{% if articles|length > 1 %}
+          </ol>
+        </div>
+		{% endif %}
+</div>
+{% endblock %}
