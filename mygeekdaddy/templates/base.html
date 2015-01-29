@@ -59,13 +59,14 @@ getStylesheet();
 <noscript><link href="/theme/css/main.css" rel="stylesheet"></noscript>
 -->
   
-  <link href="{{ SITEURL }}/favicon.png" rel="icon">
-  <link href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}" media="screen, projection" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="{{ SITEURL }}/theme/tipuesearch/tipuesearch.css">
-  <script src="{{ SITEURL }}/theme/js/jquery-1.11.1.min.js" type="text/javascript"></script>
-  <script src="{{ SITEURL }}/theme/js/modernizr-2.0.js"></script>
-  <script src="{{ SITEURL }}/theme/js/ender.js"></script>
-  <script src="{{ SITEURL }}/theme/js/octopress.js" type="text/javascript"></script>
+<link href="{{ SITEURL }}/favicon.png" rel="icon">
+<link href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}" media="screen, projection" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="{{ SITEURL }}/theme/tipuesearch/tipuesearch.css">
+<script src="{{ SITEURL }}/theme/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="{{ SITEURL }}/theme/js/modernizr-2.0.js"></script>
+<script src="{{ SITEURL }}/theme/js/ender.js"></script>
+<script src="{{ SITEURL }}/theme/js/backtotop.js" type="text/javascript"></script>
+<script src="{{ SITEURL }}/theme/js/octopress.js" type="text/javascript"></script>
 
   <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic"
         rel="stylesheet" type="text/css">
@@ -80,7 +81,7 @@ getStylesheet();
 </head>
 
 <body>
-	<header role="banner"><a href="{{ SITEURL }}"><img src="\theme\images\main_banner.png" width="800" height="80" alt=""></a></header>
+	<header role="banner"><a href="{{ SITEURL }}"><img src="\theme\images\mygeekdaddy_header.png" width="800" height="80" alt=""></a></header>
   <nav role="navigation">{% include '_includes/navigation.html' %}</nav>
   <div id="main">
     <div id="content">
@@ -90,5 +91,6 @@ getStylesheet();
   </div>
   <footer role="contentinfo">{% include '_includes/footer.html' %}</footer>
   {% include '_includes/after_footer.html' %}
+  <a href="#0" class="cd-top">Top</a>
 </body>
 </html>
