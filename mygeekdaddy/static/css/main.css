@@ -1,6 +1,7 @@
 /*
 	Name: Octopelican
 	Date: 2014-10-10
+	Revised: 2015-02-16
 	Description: Sample layout for HTML5 and CSS3 goodness.
 	Version: 1.0
 	License: MIT <http://opensource.org/licenses/MIT>
@@ -8,6 +9,7 @@
 	Original author: Enrique Ramírez <http://enrique-ramirez.com/>
 */
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
 margin:0;
@@ -118,17 +120,17 @@ border-right:1px solid #e0e0e0
 }
 
 .heading,body>header h1,h1,h2,h3,h4,h5,h6 {
-	font-family: "Helvetica Neue Light", Helvetica, Verdana, Arial, sans-serif;
+	font-family: "Open Sans", Helvetica, Verdana, Arial, sans-serif;
 	font-weight: 300;
 }
 
 .sans,body>header h2,article header p.meta,article>footer,#content .blog-index footer,html .gist .gist-file .gist-meta,#blog-archives a.category,#blog-archives time,aside.sidebar section,body>footer {
-	font-family: "Helvetica Neue Light", Helvetica, Verdana, Arial, sans-serif;
+	font-family: "Open Sans", Helvetica, Verdana, Arial, sans-serif;
 		font-weight: 300;
 }
 
 .serif,body,#content .blog-index a[rel=full-article] {
-	font-family: "Helvetica Neue Light", Helvetica, Verdana, Arial, sans-serif;
+	font-family: "Open Sans", Helvetica, Verdana, Arial, sans-serif;
 }
 
 .mono,pre,code,tt,p code,p tt,li code,li tt {
@@ -140,7 +142,7 @@ body>header h1 {
 	font-size:2em;
 	*/ 
 	font-size: 1.5em;
-	font-family: "Helvetica Neue Light", Helvetica, Verdana, Arial, sans-serif;
+	font-family: "Open Sans", Helvetica, Verdana, Arial, sans-serif;
 		font-weight: 300;
 	/* 
 	font-weight:400; 
@@ -153,7 +155,7 @@ body>header h1 {
 
 
 body>header h2 {
-	font-family: "Helvetica Neue Light", Helvetica, Verdana, Arial, sans-serif;
+	font-family: "Open Sans", Helvetica, Verdana, Arial, sans-serif;
 		font-weight: 300;
 }
 
@@ -745,7 +747,7 @@ padding:0
 body>nav form .search {
 padding:.3em .5em 0;
 font-size:.85em;
-font-family: "Helvetica Neue Light", Helvetica, Verdana, Arial, sans-serif;
+font-family: "Open Sans", Helvetica, Verdana, Arial, sans-serif;
 	font-weight: 300;
 line-height:1.1em;
 width:95%;
@@ -849,7 +851,7 @@ margin:0
 
 body>nav a {
 color:#383838;
-font-family:"Helvetica Neue Light", Helvetica, Verdana, Arial, sans-serif;
+font-family:"Open Sans", Helvetica, Verdana, Arial, sans-serif;
 text-shadow:#fff 0 1px;
 	font-weight: 300;
 float:left;
@@ -1830,7 +1832,7 @@ border-top-left-radius:5px;
 -moz-border-radius-topright:5px;
 -webkit-border-top-right-radius:5px;
 border-top-right-radius:5px;
-font-family: "Helvetica Neue Light", Helvetica, Verdana, Arial, sans-serif;
+font-family: "Open Sans", Helvetica, Verdana, Arial, sans-serif;
 	font-weight: 300;
 background:#aaa url(../images/code_bg.png?1364213904) top repeat-x;
 border:1px solid #565656;
